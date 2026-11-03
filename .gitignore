@@ -1,0 +1,48 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Raw datasets
+data/raw/
+data/benchmark_full/
+data/fi2010_unpacked/
+*.zip
+
+# Generated model checkpoints
+checkpoints/
+*.pth
+*.joblib
+
+# Temporary and backup files
+*.log
+*.tmp
+app_backup.py
+app_error_backup.py
+
+# Environment secrets
+.env
+.env.*
+
+# Allow example configuration
+!.env.example
+
+# Never upload datasets
+data/
+
+# Generated binary experiment outputs
+reports/*.npz
+
+# Experimental XGBoost debugging scripts
+src/models/test_xgboost.py
+src/models/test_xgboost_realdata.py

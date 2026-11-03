@@ -1,0 +1,6 @@
+FOUR-MODEL VALIDATION COMPARISON
+
+logistic: Accuracy=0.4159, Macro F1=0.4111
+hist_latest: Accuracy=0.5070, Macro F1=0.4678
+hist_sequence: Accuracy=0.5575, Macro F1=0.5217
+transformer: Accuracy=0.5133, Macro F1=0.4589

@@ -1,0 +1,12 @@
+Logistic Regression
+Accuracy: 0.4462
+Macro F1: 0.4143
+
+HistGradientBoosting
+Accuracy: 0.5201
+Macro F1: 0.4602
+
+MOSAIC Transformer
+Accuracy: 0.5154
+Macro F1: 0.4414
+
