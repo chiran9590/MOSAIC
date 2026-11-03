@@ -43,6 +43,10 @@ data/
 # Generated binary experiment outputs
 reports/*.npz
 
+# Include prediction data required by the public dashboard
+!reports/final_test_predictions.npz
+!reports/final_test_predictions_v2.npz
+
 # Experimental XGBoost debugging scripts
 src/models/test_xgboost.py
 src/models/test_xgboost_realdata.py
